@@ -1,0 +1,92 @@
+{
+  "uuid": "8b29dbb2-4889-4d07-8962-c33a8ab63475",
+  "lastMigration": 22,
+  "name": "SushiPress",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3002,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "3a476621-9609-4bd9-b712-b0ef702440f3",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "listmenu",
+      "responses": [
+        {
+          "uuid": "0a388b14-3d5c-4e9c-beb6-3ff356eaec5d",
+          "body": "[\n  {\n    \"id\": 1,\n    \"category\": \"Hosomaki\",\n    \"items\": [\n      {\n        \"id\": \"1a\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/avocado_maki.jpg\",\n        \"name\": \"Avocado Maki\",\n        \"price\": 4\n      },\n      {\n        \"id\": \"2a\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/maki-kunsei.jpg\",\n        \"name\": \"Kunsei Maki\",\n        \"price\": 5.2\n      },\n      {\n        \"id\": \"3a\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/sake_maki.jpg\",\n        \"name\": \"Sake Maki\",\n        \"price\": 4.5\n      },\n      {\n        \"id\": \"4a\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/tekka_maki-400x400.jpg\",\n        \"name\": \"Tekka Maki\",\n        \"price\": 4.5\n      },\n      {\n        \"id\": \"5a\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/sensei_maki.jpg\",\n        \"name\": \"Sensei Maki\",\n        \"price\": 5.5\n      }\n    ]\n  },\n  {\n    \"id\": 2,\n    \"category\": \"Soups\",\n    \"items\": [\n      {\n        \"id\": \"1b\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/miso-ebi-400x400.jpg\",\n        \"name\": \"Ebi Miso\",\n        \"price\": 4\n      },\n      {\n        \"id\": \"2b\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/Edamame-Cream-Soup-400x400.jpg\",\n        \"name\": \"Edamame Cream Soup\",\n        \"price\": 5\n      },\n      {\n        \"id\": \"3b\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/Laksa-1-400x400.jpg\",\n        \"name\": \"Laksa\",\n        \"price\": 6.5\n      },\n      {\n        \"id\": \"4b\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/nabe-udon-400x400.jpg\",\n        \"name\": \"Nabe Udon\",\n        \"price\": 7\n      },\n      {\n        \"id\": \"5b\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/miso-shiro-400x400.jpg\",\n        \"name\": \"Miso Shiro\",\n        \"price\": 3\n      }\n    ] \n  },\n  {\n    \"id\": 3,\n    \"category\": \"Salads\",\n    \"items\": [\n      {\n        \"id\": \"1c\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/Chukka-salata-400x400.jpg\",\n        \"name\": \"Chukka\",\n        \"price\": 2.5\n      },\n      {\n        \"id\": \"2c\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/Ebi-Amai-400x400.jpg\",\n        \"name\": \"Ebi Amai\",\n        \"price\": 5.5\n      },\n      {\n        \"id\": \"3c\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/Edamame-400x400.jpg\",\n        \"name\": \"Edamame\",\n        \"price\": 2.5\n      }\n    ] \n  },\n  {\n    \"id\": 4,\n    \"category\": \"Uramaki\",\n    \"items\": [\n      {\n        \"id\": \"1d\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/maki-california-400x400.jpg\",\n        \"name\": \"California Maki\",\n        \"price\": 7.5\n      },\n      {\n        \"id\": \"2d\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/maki-ebi-cruch-400x400.jpg\",\n        \"name\": \"Ebi Crunch Maki\",\n        \"price\": 9.5\n      },\n      {\n        \"id\": \"3d\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/maki-horenso-400x400.jpg\",\n        \"name\": \"Horenso Maki\",\n        \"price\": 11.5\n      },\n      {\n        \"id\": \"4d\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/maki-maguro-400x400.jpg\",\n        \"name\": \"Maguro Maki\",\n        \"price\": 6.5\n      },\n      {\n        \"id\": \"5d\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/maki-philadelphia-400x400.jpg\",\n        \"name\": \"Philadelphia Maki\",\n        \"price\": 7.2\n      },\n      {\n        \"id\": \"6d\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/maki-wasabiko-400x400.jpg\",\n        \"name\": \"Wasabiko Maki\",\n        \"price\": 5.5\n      }\n    ] \n  },\n  {\n    \"id\": 5,\n    \"category\": \"Sashimi\",\n    \"items\": [\n      {\n        \"id\": \"1e\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/sake-sashimi-400x400.jpg\",\n        \"name\": \"Sake\",\n        \"price\": 5.5\n      },\n      {\n        \"id\": \"2e\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/ume-set-400x400.jpg\",\n        \"name\": \"Ume Set\",\n        \"price\": 6\n      },\n      {\n        \"id\": \"3e\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/unagi-sashimi-400x400.jpg\",\n        \"name\": \"Unagi\",\n        \"price\": 4.5\n      }\n    ] \n  },\n  {\n    \"id\": 6,\n    \"category\": \"Appetizers\",\n    \"items\": [\n      {\n        \"id\": \"1f\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/Ebi-tempura-400x400.jpg\",\n        \"name\": \"Ebi Tempura\",\n        \"price\": 3.5\n      },\n      {\n        \"id\": \"2f\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/vegie-tempura-400x400.jpg\",\n        \"name\": \"Yasai Tempura\",\n        \"price\": 3.9\n      },\n      {\n        \"id\": \"3f\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/3db-gyoza-400x400.jpg\",\n        \"name\": \"Gyoza\",\n        \"price\": 6.5\n      },\n      {\n        \"id\": \"4f\",\n        \"img\": \"https://www.haiku-restaurant.it/images/virtuemart/product/tartare/tartare_salmone_menu_giapponese.jpg\",\n        \"name\": \"Sake Tartare\",\n        \"price\": 6.5\n      },\n      {\n        \"id\": \"5f\",\n        \"img\": \"https://www.haiku-restaurant.it/images/virtuemart/product/tartare/tartare_tonno_menu_giapponese.jpg\",\n        \"name\": \"Tuna Tartare\",\n        \"price\": 5.7\n      }\n    ] \n  },\n  {\n    \"id\": 7,\n    \"category\": \"Nigiri\",\n    \"items\": [\n      {\n        \"id\": \"1g\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/ebi-nigiri-1-400x400.jpg\",\n        \"name\": \"Ebi\",\n        \"price\": 3.5\n      },\n      {\n        \"id\": \"2g\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/sake-nigiri-1-400x400.jpg\",\n        \"name\": \"Sake\",\n        \"price\": 4.5\n      },\n      {\n        \"id\": \"4g\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/Tamago-nigiri-1-400x400.jpg\",\n        \"name\": \"Tako\",\n        \"price\": 2.9\n      }\n    ] \n  },\n  {\n    \"id\": 8,\n    \"category\": \"Drinks\",\n    \"items\": [\n      {\n        \"id\": \"1h\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/w_asahi1-400x400.jpg\",\n        \"name\": \"Asahi\",\n        \"price\": 5\n      },\n      {\n        \"id\": \"2h\",\n        \"img\": \"https://www.planetsushi.hu/wp-content/uploads/w_NaturAqua_still_15PET_2014-400x400.jpg\",\n        \"name\": \"Mineral Water\",\n        \"price\": 1.5\n      },\n      {\n        \"id\": \"3h\",\n        \"img\": \"https://tokyostore.it/3160-large_default/sake-giapponese-720ml-tamanohikari-junmai-ginjo-tokusen-sake.jpg\",\n        \"name\": \"Sake\",\n        \"price\": 4\n      }\n    ] \n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}
