@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SushiPressMobile",
-    "slug": "SushiPressMobile",
+    "name": "SushiPressMobileexpo",
+    "slug": "SushiPressMobileexpo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
