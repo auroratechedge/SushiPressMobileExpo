@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SushiPressMobileexpo",
-    "slug": "SushiPressMobileexpo",
+    "slug": "sushipressmobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ecf72c15-69ef-4235-9557-27f90c2e85ea"
+      }
+    },
+    "owner": "aurycucci"
   }
 }

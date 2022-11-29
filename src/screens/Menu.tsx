@@ -46,7 +46,7 @@ const Menu = ({ navigation, route }: any) => {
     <Drawer.Navigator
       initialRouteName="Home"
       drawerContent={props => (
-        <View>
+        <View style={{marginTop: 40}}>
           <View style={{alignItems: 'center', width: '100%'}}>
             <Image
               source={require('./../assets/images/logo_nobg.png')}

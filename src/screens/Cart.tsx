@@ -46,7 +46,7 @@ const Cart = ({navigation, route}: any) => {
   };
 
   return (
-    <View style={{marginTop: 60}}>
+    <View style={{marginTop: 40}}>
       <View style={styles.header}>
         <View style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
           <IconButton
@@ -147,9 +147,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     alignItems: 'center',
     marginBottom: 10,
+    borderRadius: 60,
   },
   containerTrashBtn: {
-    backgroundColor: '#f5f5f5',
+    //backgroundColor: '#f5f5f5',
     width: 50,
     borderRadius: 20,
     alignItems: 'center',
