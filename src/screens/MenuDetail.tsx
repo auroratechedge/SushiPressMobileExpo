@@ -56,7 +56,7 @@ const MenuDetail = ({route}: any) => {
   }
 
   return (
-    <ScrollView>
+    <ScrollView showsVerticalScrollIndicator={false}>
       {items?.map((item: Items, index: number) => (
         <View key={index} style={styles.container}>
           <View style={styles.containerPrice}>
