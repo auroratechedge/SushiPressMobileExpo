@@ -4,7 +4,7 @@ import {
 } from '@react-navigation/drawer';
 import {DrawerActions} from '@react-navigation/native';
 import React, { useEffect, useState } from 'react';
-import {Image, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
+import {Image, StyleSheet, Text, Pressable, View} from 'react-native';
 import { Divider } from 'react-native-flex-layout';
 import 'react-native-gesture-handler';
 import MenuDetail from './MenuDetail';
@@ -90,7 +90,7 @@ const Menu = ({ navigation, route }: any) => {
                 marginLeft: 5
               }}>{route.params.name}</Text>
           </View>
-          <TouchableHighlight onPress={() => {
+          <Pressable onPress={() => {
             dispatch(addToCart([], 'deleteAll'))
             navigation.goBack()
             }}>
@@ -105,11 +105,11 @@ const Menu = ({ navigation, route }: any) => {
                 GO BACK TO HOME 
               </Text>
             </View>
-          </TouchableHighlight>
+          </Pressable>
         </View>
       )}>
       <Drawer.Screen name={route.params.name} component={MenuDetail} options={{headerRight: () => (
-        <TouchableHighlight onPress={() => navigation.navigate('Cart', {name: route.params.name})}>
+        <Pressable onPress={() => navigation.navigate('Cart', {name: route.params.name})}>
             <IconButton 
               icon={<View style={styles.container}>
                 {cart.length > 0 && <View style={styles.containerCountCart}>
@@ -119,7 +119,7 @@ const Menu = ({ navigation, route }: any) => {
               //style={{borderRadius: 60, backgroundColor: '#D3CD00'}}
               onPress={() => navigation.navigate('Cart', {name: route.params.name})}
             />
-        </TouchableHighlight>
+        </Pressable>
       )}}/>
     </Drawer.Navigator>
   );
