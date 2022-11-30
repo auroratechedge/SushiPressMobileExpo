@@ -46,7 +46,7 @@ const Cart = ({navigation, route}: any) => {
   };
 
   return (
-    <View style={{marginTop: 40}}>
+    <View>
       <View style={styles.header}>
         <View style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
           <IconButton

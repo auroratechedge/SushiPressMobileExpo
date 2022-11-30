@@ -120,7 +120,6 @@ const Home = ({ navigation } : any) => {
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    marginTop: 60,
   },
   scrollContainer: {
     width: '100%',

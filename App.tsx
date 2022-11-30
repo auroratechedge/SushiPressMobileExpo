@@ -17,12 +17,15 @@
  import {Provider} from 'react-redux';
  import {store} from './src/store/storeConfiguration';
  import Cart from './src/screens/Cart';
+import { StatusBar } from 'react-native';
  
  const App = () => {
  
    const Stack = createNativeStackNavigator();
  
    return (
+    <>
+    <StatusBar backgroundColor={'#D3CD00'}/>
      <Provider store={store}>
        <NavigationContainer>
          <Stack.Navigator
@@ -35,6 +38,7 @@
          </Stack.Navigator>
        </NavigationContainer>
      </Provider>
+     </>
    );
  };
  

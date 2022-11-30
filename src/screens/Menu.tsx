@@ -4,7 +4,7 @@ import {
 } from '@react-navigation/drawer';
 import {DrawerActions} from '@react-navigation/native';
 import React, { useEffect, useState } from 'react';
-import {Image, StyleSheet, Text, Pressable, View} from 'react-native';
+import {Image, StyleSheet, Text, Pressable, View, ScrollView} from 'react-native';
 import { Divider } from 'react-native-flex-layout';
 import 'react-native-gesture-handler';
 import MenuDetail from './MenuDetail';
@@ -46,7 +46,7 @@ const Menu = ({ navigation, route }: any) => {
     <Drawer.Navigator
       initialRouteName="Home"
       drawerContent={props => (
-        <View style={{marginTop: 40}}>
+        <ScrollView>
           <View style={{alignItems: 'center', width: '100%'}}>
             <Image
               source={require('./../assets/images/logo_nobg.png')}
@@ -106,7 +106,7 @@ const Menu = ({ navigation, route }: any) => {
               </Text>
             </View>
           </Pressable>
-        </View>
+        </ScrollView>
       )}>
       <Drawer.Screen name={route.params.name} component={MenuDetail} options={{headerRight: () => (
         <Pressable onPress={() => navigation.navigate('Cart', {name: route.params.name})}>
